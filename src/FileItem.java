@@ -7,13 +7,16 @@ public class FileItem implements FileSystemItem{
         this.sizeInKB = sizeInKB;
     }
 
+
     @Override
     public String getName() {
-        return "FirstFile";
+        return "";
     }
 
     @Override
     public int getSizeInKB() {
         return 0;
     }
+
+
 }

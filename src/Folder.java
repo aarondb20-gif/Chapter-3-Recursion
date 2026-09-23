@@ -4,6 +4,7 @@ public class Folder implements FileSystemItem{
     private String name;
     private ArrayList<FileSystemItem> items;
 
+
     public Folder(String name){
         this.name = name;
         this.items = new ArrayList<FileSystemItem>();
@@ -11,7 +12,7 @@ public class Folder implements FileSystemItem{
 
     @Override
     public String getName() {
-        return "Root";
+        return "";
     }
 
     @Override
