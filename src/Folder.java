@@ -12,12 +12,12 @@ public class Folder implements FileSystemItem{
 
     @Override
     public String getName() {
-        return "";
+        return name;
     }
 
     @Override
     public int getSizeInKB() {
-        return 0;
+        return items.size();
     }
 
     public void addItem(FileSystemItem item){
